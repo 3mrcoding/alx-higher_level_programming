@@ -7,4 +7,4 @@ def search_replace(my_list, search, replace):
         if(x[i] == search):
             x[i] = replace
 
-    return(x)
+    return x
