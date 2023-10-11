@@ -5,4 +5,6 @@ def best_score(a_dictionary):
     x = a_dictionary.copy()
     x = list(x.values())
     x.sort(reverse=True)
-    return x[0]
+    for i, y in a_dictionary.items():
+        if y == x[0]:
+            return i
