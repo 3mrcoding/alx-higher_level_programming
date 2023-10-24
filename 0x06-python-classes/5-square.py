@@ -40,4 +40,4 @@ class Square():
                 print(f"{'#' * self.__size}")
                 i -= 1
         elif self.__size == 0:
-            print(" ")
+            print("")
