@@ -52,9 +52,9 @@ class Rectangle:
             return ((self.__height + self.width) * 2)
 
     def __str__(self):
-        if self.__height == 0 or self.__width == 0:
-            pass
         rectangle_str = ""
+        if self.__height == 0 or self.__width == 0:
+            return rectangle_str
         for _ in range(self.height):
             rectangle_str += "#" * self.width + "\n"
         return rectangle_str
