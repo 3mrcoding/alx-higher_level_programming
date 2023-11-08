@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
-"""function file to read a file in the working dir"""
+"""Defines a text file-reading function."""
 
 
 def read_file(filename=""):
 
-    """function reads a file"""
+    """Print the contents of a UTF8 text file to stdout."""
 
-    with open(filename, "r", encoding="UTF8") as file:
-        print(file.read())
+    with open(filename, "r", encoding="utf-8") as file:
+        print(file.read(), end="")
