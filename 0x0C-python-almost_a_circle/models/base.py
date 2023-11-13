@@ -10,6 +10,7 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """init"""
         if id is not None:
             self.id = id
         else:
@@ -40,7 +41,9 @@ class Base:
         with open(filename, "w") as f:
             f.write(lists)
 
+    @classmethod
     def from_json_string(json_string):
+        """save to json"""
         if json_string is None:
             return []
         return json.loads(json_string)
