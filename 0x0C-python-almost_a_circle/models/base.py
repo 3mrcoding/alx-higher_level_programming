@@ -41,7 +41,7 @@ class Base:
         with open(filename, "w") as f:
             f.write(lists)
 
-    @classmethod
+    @staticmethod
     def from_json_string(json_string):
         """save to json"""
         if json_string is None:
