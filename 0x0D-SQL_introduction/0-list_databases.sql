@@ -1,9 +1,2 @@
-#!/bin/bash
-
-# Login to MySQL
-mysql -u root -p <<EOF
-
-# List all databases
+--  a script that lists all databases of your MySQL server.
 SHOW DATABASES;
-
-EOF
