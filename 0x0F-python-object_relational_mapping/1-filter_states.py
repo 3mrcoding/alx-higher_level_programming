@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     for row in result:
         if row[1].startswith('N'):
-            print (row)
+            print(row)
 
     cur.close()
     db.close()
