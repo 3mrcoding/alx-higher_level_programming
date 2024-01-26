@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Return value of X-Request-Id variable in the response"""
+"""sends a POST request to the passed URL with the email as a parameter, and
+displays the body of the response"""
 from urllib import request
 import urllib
 import sys
